@@ -3,5 +3,4 @@ firebase-admin==6.2.0
 pandas
 plotly
 pillow==10.4.0 --only-binary=:all:
-google-crc32c==1.5.0
 
