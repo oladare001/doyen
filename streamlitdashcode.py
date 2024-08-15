@@ -2,7 +2,10 @@
 # coding: utf-8
 
 # In[1]:
+import subprocess
+import sys
 
+subprocess.check_call([sys.executable, "-m", "pip", "install", "pillow", "--no-cache-dir"])
 
 import streamlit as st
 import firebase_admin
