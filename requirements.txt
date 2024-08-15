@@ -1,6 +1,6 @@
-streamlit==1.24.0
-firebase-admin==6.2.0
+streamlit
+firebase-admin
 pandas
 plotly
-pillow==10.4.0 --only-binary=:all:
+pillow
 
