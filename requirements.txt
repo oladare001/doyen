@@ -2,5 +2,6 @@ streamlit==1.24.0
 firebase-admin==6.2.0
 pandas
 plotly
-pillow==9.5.0 --only-binary=:all:
+pillow==10.4.0 --only-binary=:all:
 google-crc32c==1.5.0
+
