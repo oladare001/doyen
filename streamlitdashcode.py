@@ -5,7 +5,7 @@
 import subprocess
 import sys
 
-subprocess.check_call([sys.executable, "-m", "pip", "install", "pillow", "--no-cache-dir"])
+#subprocess.check_call([sys.executable, "-m", "pip", "install", "pillow", "--no-cache-dir"])
 
 import streamlit as st
 import firebase_admin
@@ -148,19 +148,15 @@ fig.update_layout(height=600, width=1000)
 st.plotly_chart(fig)
 
 # Additional statistics
-st.header("Additional Statistics")
-st.write("Total Amount In Category of Courses:")
+st.write("Total Amount In all Category of  all Courses:")
 TotalAmount_In_Categoryofcourses = df.groupby("course")["TotalpaidinEURO"].sum()
 st.write(TotalAmount_In_Categoryofcourses)
 
-st.write("Count of Source of Discovery:")
+st.write("Count of Source of all Discovery:")
 Count_SourceofDis = df['sourceOfDiscovery'].value_counts()
 st.write(Count_SourceofDis)
 
-# You can add more visualizations or statistics as needed
 
-
-# In[ ]:
 
 
 
